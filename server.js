@@ -36,7 +36,7 @@ app.get('/bad', (req,res) => {
 
 });
 // binding the app to a port on our machine or a server machine
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
   console.log(`Server is up on ${port}`);
 
 }); // can take a 2nd arg
